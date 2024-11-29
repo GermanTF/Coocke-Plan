@@ -1,0 +1,23 @@
+/* Centrar el contenido y ajustar el fondo */
+.mainContent {
+  background-color: #fff7f0; /* Color cálido relacionado con comida */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mainContent:hover {
+  transform: translateY(-5px); /* Animación para hacer el diseño interactivo */
+}
+
+#detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Añadir margen entre el login y el card */
+.myLogin {
+  margin-bottom: 20px;
+}

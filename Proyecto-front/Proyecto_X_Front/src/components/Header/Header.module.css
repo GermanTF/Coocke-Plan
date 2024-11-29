@@ -1,0 +1,83 @@
+body {
+  background-color: #f8f9fa; /* Fondo más claro */
+  margin: 0;
+  padding-top: 150px; /* Espacio para el Navbar fijo */
+  padding-bottom: 100px;
+}
+
+.navbarHeader {
+  background-color: #ff914d; /* Color cálido y atractivo */
+}
+
+.navbarHeader img{
+  margin-left: 10px;
+}
+
+.navbarHeader .navbar-brand {
+  padding: 20px 0;
+  margin-left: 10px;
+}
+
+.sloganText {
+  position: absolute;
+  padding: 20px 0;
+
+  color: #000000; /* Color blanco para destacar sobre el fondo cálido */
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 3%; /* Ajustado para mantener su posición original */
+  display: inline-block;
+}
+
+.horizontalMenu {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos del menú a la izquierda */
+  background-color: #343a40; /* Fondo oscuro */
+  margin: 0;
+  padding: 10px 0;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  left: 0;
+  z-index: 1030;
+}
+
+
+.horizontalMenu .nav-link {
+  color: #ffffff; /* Color del texto en la sección horizontal */
+  margin: 0; /* Espaciado entre los elementos */
+}
+
+.horizontalMenu .nav-link img {
+  margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+/* stylesHeaderyLogin.module.css */
+.navLink {
+  color: #ffffff; /* Color del texto */
+}
+
+.navLink:hover {
+  color: #007bff; /* Color del texto al pasar el cursor por encima */
+}
+
+
+/* Asegura que los íconos sean de un tamaño adecuado */
+.navIcon i {
+  font-size: 1.5rem;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-header {
+    text-align: center;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link, .nav-icon {
+    padding: 0.5rem 1rem;
+  }
+}

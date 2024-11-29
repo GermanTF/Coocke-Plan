@@ -1,0 +1,8 @@
+/* ./components/errorPage.css */
+.error-message {
+    color: #ff4d4d; /* Color rojo para el mensaje de error */
+  }
+  
+  .btn-primary {
+    margin-top: 20px; /* Espaciado adicional para el botón */
+  }  

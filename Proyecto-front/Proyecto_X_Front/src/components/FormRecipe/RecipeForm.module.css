@@ -1,0 +1,145 @@
+/* RecipeForm.module.css */
+.paddingTop_custom {
+  padding-top: 100px; /* Agregar padding superior para que no traslape con el header*/
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: 20px auto 20px auto; /* Ajusta el valor del margin-top según la altura de tu header */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .formGroup input,
+  .formGroup textarea,
+  .formGroup select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formGroup input:focus,
+  .formGroup textarea:focus,
+  .formGroup select:focus {
+    border-color: #007bff;
+  }
+  
+  .buttonAddIngredient {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .buttonAddIngredient:hover {
+    background-color: #218838;
+  }
+  
+  .buttonSubmit {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buttonSubmit:hover {
+    background-color: #0056b3;
+  }
+  
+  .ingredientGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ingredientGroup input {
+    width: 48%;
+  }
+  
+  .formPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formPhoto img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }  
+
+  .h5 {
+    display: inline-block;
+    border: 2px solid #28a745; /* Borde verde */
+    background-color: #d4edda; /* Fondo verde claro */
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); /* Sombra para efecto de selección */
+    padding: 9px 8px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #000; /* Color del texto */
+    font-weight: 500; /* Texto en negrita sencilla */
+    font-size: 16.5px;
+    margin-top: 7px;
+  }
+
+  .buttonEliminar{
+    margin-right: 20px;
+    border-color: #ed0e0e; /* Color del borde*/
+  }
+
+  .recipeItem{
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: 500; /* Texto en negrita sencilla */
+  }
+
+  
+  
+  .recipeItem:hover {
+    color: #ed0e0e; /* Cambia el color del texto al pasar el mouse sobre el botón */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #f8f9fa; /* Fondo gris claro */
+    border: 1px solid #000000; /* Borde verde */
+    padding: 2px 5px; /* Espaciado interno */
+    border-radius: 3px; /* Bordes redondeados */
+  }
+  
+  .recipeItem:hover .buttonEliminar {
+    background-color: #ed0e0e; /* Cambia el color de fondo del botón al pasar el mouse */
+    border-color: #000000; /* Cambia el color del borde del botón */
+  }
+  
+  

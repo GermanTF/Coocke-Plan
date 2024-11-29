@@ -1,0 +1,18 @@
+/* RecentRecipees.module.css */
+.title {
+    text-align: center; /* Centrar el título */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #343a40; /* Color oscuro para el título */
+}
+
+.cardsList {
+    display: flex; /* Disposición flexible */
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan */
+    justify-content: center; /* Centrar las tarjetas */
+}
+
+.cardsList > div {
+    margin: 10px; /* Margen alrededor de cada tarjeta */
+    flex: 0 0 300px; /* Tamaño fijo para las tarjetas */
+}

@@ -1,0 +1,33 @@
+/* dailyRecipe.module.css */
+.carousel_custom {
+    width: 75%;
+}
+
+.custom_card {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.card_image {
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: justify; /* Asegurar que el título esté centrado */
+    color: black;
+}
+
+.description {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: justify; /* Justificar el texto */
+}
+
+

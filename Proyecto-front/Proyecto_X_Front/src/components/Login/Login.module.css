@@ -1,0 +1,67 @@
+/************************************************************************/
+/* styles para el inicio de seccion */
+.floating_label {
+  display: flex;
+  align-items: center;
+}
+
+.floating_label img {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.floating_label span {
+  font-weight: bold;
+  color: #004a93;
+}
+
+.form_control_custom {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+/* Estilo para los campos de entrada cuando la información es incorrecta 
+input:invalid {
+  border: 2px solid red;
+}*/
+
+/* Estilo para los campos de entrada cuando están enfocados y la información es incorrecta */
+input:focus:invalid {
+  border: 2px solid red;
+}
+
+
+.navbarLogin {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonLogin, .buttonCarritoCompra {
+  position: absolute;
+  top: 40px;
+  border-color: #000000; /* Color del borde*/
+}
+
+.buttonLogin {
+  right: 70px;
+}
+
+.buttonCarritoCompra {
+  right: 12px;
+}
+
+.buttonLogin:hover, .buttonCarritoCompra:hover {
+  /*color: #FFA07A; /* Color del texto al pasar el ratón por encima */
+  border-color: #000000; /* Color del borde al pasar el ratón por encima */
+  background-color: #ffffff; /* Color de fondo al pasar el ratón por encima */
+}
+
+.icono {
+  margin-top: 20px; 
+}
+
+.customLeft {
+  margin-left: -60px !important;
+}
+
